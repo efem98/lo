@@ -1,0 +1,194 @@
+body{
+	background-color: black;
+}
+.do{
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-items: flex-start;
+	margin-bottom:60px;
+
+	flex-basis: 25%;
+	padding:20px 50px;
+	margin-bottom:10px;	
+}
+
+.fen{
+	width:100px;
+	height: 100px;
+	background-color: purple;
+	border-radius:50%; 
+}
+
+
+.one{
+	color:white;
+	text-align: center;
+	padding-top:7% ;
+	width: 100%;
+}
+
+span{
+	color:purple;
+}
+ul{
+	list-style-type: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	max-width: 350px;
+}
+
+ul li a{
+	text-decoration: none;
+	display:inline-block;
+	padding: 20px;
+	float: left;
+	margin-bottom: 40px;
+	color:white;
+}
+@media(max-width: 1000px){
+	ul li a{
+		padding: 10px;
+	}
+
+
+}
+.one h1{
+	font-size: 3rem;
+	font: normal;
+	font-family: "Arvo", cursive;
+}
+.one p{
+	font-size: 20px;
+}
+@media(max-width: 1000px){
+	.one h1{
+	font-size: 2rem;
+
+}
+.one p{
+	font-size: 20px;
+	width:100%;
+	color: gray;
+}
+
+}
+.btn{
+	width: 400px;
+	padding: 15px;
+	background-color:purple;
+	color: white;
+	font-size:20px;
+	box-shadow: 10px blue;
+	border-radius: 10px;
+	font-family: "Arvo", cursive;
+}
+@media(max-width: 1000px){
+	.btn{
+		width: 300px;
+		font-size: 13px;
+	}
+}
+.wed{
+	width:80%;
+	height: 500px;
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+}
+.bed{
+	width:30%;
+	float: left;
+	margin-right: 60px;
+}
+.house{
+	width: 50%;
+	height: 100px;
+	margin:100px auto 100px auto;
+	text-align: left;
+	color: white;
+
+}
+.ked{
+	width:30%;
+	float:right;
+	margin-left: 60px;
+}
+@media (max-width: 1000px){
+	.house{
+		display:inline;
+		
+	}
+	.ked{
+	width:100%;
+	text-align: center;
+
+	}
+	.bed{
+	width:100%;
+	
+	}
+}
+.den{
+	margin-top: 80px;
+	color:white;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:flex-start;
+	margin-bottom:60px;
+
+	flex-basis: 25%;
+	padding:0 50px;
+	margin-bottom:20px;
+}
+.den p{
+	margin-bottom:20px;
+	text-align: center;
+}
+@media(max-width:800px){
+.den{
+	flex-basis: 100%;
+
+	}	
+	.den p{
+		width:250px;
+	}
+	
+}
+.got{
+	width:80px;
+	height: 80px;
+}
+.butt{
+	padding: 15px;
+	background-color: black;
+	color:white;
+	cursor:pointer;
+	display:block;
+	margin: 0 auto;
+	width:200px;
+	border-radius: 3px;
+}
+hr{
+	width: 100px;
+	margin-top: 40px;
+	border: 1px solid gray;
+}
+footer{
+	color:gray;
+	text-align: center;
+}
+footer p{
+	display: inline-block;
+	padding: 20px;
+	font-size: 20px;
+
+}
+footer h2{
+	font-size: 15px;
+}
